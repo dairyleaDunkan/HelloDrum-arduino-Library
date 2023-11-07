@@ -29,9 +29,9 @@ HelloDrum::HelloDrum(byte pin1)
 #endif
 
   //initial EEPROM value
-  sensitivity = 100;   //0
-  threshold1 = 10;     //1
-  scantime = 10;       //2
+  sensitivity = 80;   //0
+  threshold1 = 3;     //1
+  scantime = 15;       //2
   masktime = 30;       //3
   rimSensitivity = 20; //4 edgeThreshold
   rimThreshold = 3;    //5 cupThreshold
